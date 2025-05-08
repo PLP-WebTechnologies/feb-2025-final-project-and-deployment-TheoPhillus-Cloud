@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Theo Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" role="button">Categories ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Men's Jackets</a></li>
+                        <li><a href="#">Women's Jackets</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h1>The Theo Store</h1>
+        <div class="header-icons">
+            <a href="login.html">Login</a>
+            <input type="text" placeholder="Search...">
+            <a href="cart.html">🛒</a>
+        </div>
+    </header>
+
+    <!-- VIDEO SECTION -->
+    <section class="promo-video">
+        <div class="video-container">
+            <video id="custom-video" class="video-background" poster="thumbnail.jpg" controls>
+                <source src="assets/16502841-uhd_3840_2160_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button id="play-button" class="custom-play">Play</button>
+        </div>
+        <div class="motto">
+            <p>🧥❄️ “Gear up for winter with our out-of-this-world jacket collection! Stay warm, dry, and effortlessly stylish as you conquer the cold and rain. 🌧️🔥 Whether battling icy winds or unexpected showers, our jackets have got you covered—literally! 😉❄️</p>
+        </div>
+    </section>
+
+    <!-- MAIN PRODUCTS SECTION -->
+    <section class="main-products">
+        <h2>Featured Jackets</h2>
+        <div class="product-grid">
+            <div class="product" data-name="Jacket 1" data-price="R450" data-size="M, L">
+                <img src="assets/pexels-fotios-photos-1476055.jpg" alt="Men’s jacket">
+                <p>Price: R450 (Including VAT)</p>
+                <p>Size: S, M, L</p>
+                <button class="view-details">View Details</button>
+            </div>
+            <div class="product" data-name="Jacket 2" data-price="R499">
+                <img src="assets/pexels-godisable-jacob-226636-2703039.jpg" alt="Women’s jacket">
+                <p>Price: R499 (Including VAT)</p>
+                <p>Size: S, M, L</p>
+                <button class="view-details">View Details</button>
+            </div>
+            <div class="product" data-name="Jacket 3" data-price="R399">
+                <img src="assets/pexels-romanp-16170.jpg" alt="Assorted jackets">
+                <p>Price: R399 (Including VAT)</p>
+                <p>Size: S, M, L</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- OTHER PRODUCTS SECTION -->
+    <h2>Other Products</h2>
+    <section class="product-grid">
+        <div class="product">
+            <img src="assets/pexels-darya-grey_owl-132130036-19522503.jpg" 
+                 data-src="assets/pexels-darya-grey_owl-132130036-19522503.jpg" 
+                 alt="Blonde woman in winter jacket by Darya Grey_Owl on Pexels" 
+                 class="lazy" loading="lazy">
+            <h3>Winter Jacket</h3>
+            <p>Durable, waterproof, and stylish for cold weather.</p>
+        </div>
+        <div class="product">
+            <img src="assets/pexels-cottonbro-7026415.jpg" 
+                 data-src="assets/pexels-cottonbro-7026415.jpg" 
+                 alt="People's feet on the ground by cottonbro studio on Pexels" 
+                 class="lazy" loading="lazy">
+            <h3>All-Season Boots</h3>
+            <p>Comfortable, sturdy, and designed for any adventure.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>&copy; 2025 Theo | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
