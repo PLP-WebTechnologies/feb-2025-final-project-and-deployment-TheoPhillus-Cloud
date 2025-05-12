@@ -9,7 +9,7 @@ This website is designed to showcase the latest winter apparel with a clean, res
 - **JavaScript** for interactivity (dark mode, lazy loading, video player)
 
 ## 🌍 Live Website
-[Insert your live URL here]
+[https://thetheostores.netlify.app]
 
 ## ⚡ Features
 ✅ Responsive design for all devices  
